@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="com.ludei.spinner.ios" version="1.1.0">
+    <name>Cocoon Spinner Plugin</name>
+    <description>Cocoon Spinner Plugin</description>
+    <license>MPL 2.0</license>
+    <keywords>cordova, ludei, cocoon, spinner</keywords>
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="SpinnerPlugin">
+                <param name="ios-package" value="SpinnerPlugin" />
+                <param name="onload" value="true" />
+            </feature>
+        </config-file>
+
+        <header-file src="src/ios/SpinnerPlugin.h" />
+        <source-file src="src/ios/SpinnerPlugin.m" />
+
+        <resource-file src="res/ios/spinner_0.png" />
+        <resource-file src="res/ios/spinner_1.png" />
+        <resource-file src="res/ios/spinner_2.png" />
+        <resource-file src="res/ios/spinner_3.png" />
+        <resource-file src="res/ios/spinner_4.png" />
+        <resource-file src="res/ios/spinner_5.png" />
+        <resource-file src="res/ios/spinner_6.png" />
+        <resource-file src="res/ios/spinner_7.png" />
+        <resource-file src="res/ios/spinner_8.png" />
+        <resource-file src="res/ios/spinner_9.png" />
+        <resource-file src="res/ios/spinner_10.png" />
+        <resource-file src="res/ios/spinner_11.png" />
+        <resource-file src="res/ios/spinner_12.png" />
+        <resource-file src="res/ios/spinner_13.png" />
+        <resource-file src="res/ios/spinner_14.png" />
+        <resource-file src="res/ios/spinner_15.png" />
+        <resource-file src="res/ios/spinner_16.png" />
+        <resource-file src="res/ios/spinner_17.png" />
+        <resource-file src="res/ios/spinner_18.png" />
+        <resource-file src="res/ios/spinner_19.png" />
+        <resource-file src="res/ios/spinner_20.png" />
+        <resource-file src="res/ios/spinner_21.png" />
+        <resource-file src="res/ios/spinner_22.png" />
+        <resource-file src="res/ios/spinner_23.png" />
+        <resource-file src="res/ios/spinner_24.png" />
+    </platform>
+
+</plugin>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="com.ludei.spinner.android"
+    version="1.0.0">
+
+    <name>Cocoon Spinner Plugin</name>
+    <description>Cocoon Spinner Plugin</description>
+    <license>Copyright Ludei</license>
+    <keywords>cordova, ludei, cocoon, spinner</keywords>
+    <repo>https://bitbucket.org/ludei/cocoon_plugins</repo>
+
+    <engines>
+      <engine name="cordova-android" version=">=4" />
+      <engine name="cordova-plugman" version=">=4.2.0" />
+    </engines>
+
+    <!-- android -->
+    <platform name="android">
+        <source-file src="src/android/SpinnerPlugin.java" target-dir="src/com/ludei/spinner/android" />
+
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="SpinnerPlugin">
+                <param name="android-package" value="com.ludei.spinner.android.SpinnerPlugin" />
+                <param name="onload" value="true" />
+            </feature>
+        </config-file>
+
+        <resource-file src="res/android/spinner.xml" target="res/drawable/spinner.xml" />
+        <resource-file src="res/android/spinner_0.png" target="res/drawable/spinner_0.png" />
+        <resource-file src="res/android/spinner_1.png" target="res/drawable/spinner_1.png" />
+        <resource-file src="res/android/spinner_2.png" target="res/drawable/spinner_2.png" />
+        <resource-file src="res/android/spinner_3.png" target="res/drawable/spinner_3.png" />
+        <resource-file src="res/android/spinner_4.png" target="res/drawable/spinner_4.png" />
+        <resource-file src="res/android/spinner_5.png" target="res/drawable/spinner_5.png" />
+        <resource-file src="res/android/spinner_6.png" target="res/drawable/spinner_6.png" />
+        <resource-file src="res/android/spinner_7.png" target="res/drawable/spinner_7.png" />
+        <resource-file src="res/android/spinner_8.png" target="res/drawable/spinner_8.png" />
+        <resource-file src="res/android/spinner_9.png" target="res/drawable/spinner_9.png" />
+        <resource-file src="res/android/spinner_10.png" target="res/drawable/spinner_10.png" />
+        <resource-file src="res/android/spinner_11.png" target="res/drawable/spinner_11.png" />
+        <resource-file src="res/android/spinner_12.png" target="res/drawable/spinner_12.png" />
+        <resource-file src="res/android/spinner_13.png" target="res/drawable/spinner_13.png" />
+        <resource-file src="res/android/spinner_14.png" target="res/drawable/spinner_14.png" />
+        <resource-file src="res/android/spinner_15.png" target="res/drawable/spinner_15.png" />
+        <resource-file src="res/android/spinner_16.png" target="res/drawable/spinner_16.png" />
+        <resource-file src="res/android/spinner_17.png" target="res/drawable/spinner_17.png" />
+        <resource-file src="res/android/spinner_18.png" target="res/drawable/spinner_18.png" />
+        <resource-file src="res/android/spinner_19.png" target="res/drawable/spinner_19.png" />
+        <resource-file src="res/android/spinner_20.png" target="res/drawable/spinner_20.png" />
+        <resource-file src="res/android/spinner_21.png" target="res/drawable/spinner_21.png" />
+        <resource-file src="res/android/spinner_22.png" target="res/drawable/spinner_22.png" />
+        <resource-file src="res/android/spinner_23.png" target="res/drawable/spinner_23.png" />
+        <resource-file src="res/android/spinner_24.png" target="res/drawable/spinner_24.png" />
+    </platform>
+</plugin>

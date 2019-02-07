@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="com.ludei.web2app.android"
+    version="1.0.0">
+
+    <name>Cocoon Web2App Plugin</name>
+    <description>Cocoon Web2App Plugin</description>
+    <license>Copyright Ludei</license>
+    <keywords>cordova, ludei, cocoon, development, devapp</keywords>
+    <repo>https://bitbucket.org/ludei/cocoon_plugins</repo>
+
+    <!-- android -->
+    <platform name="android">
+        <source-file src="src/android/Web2AppPlugin.java" target-dir="src/com/ludei/web2app/android" />
+
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="Web2AppPlugin">
+                <param name="android-package" value="com.ludei.web2app.android.Web2AppPlugin" />
+                <param name="onload" value="true" />
+            </feature>
+        </config-file>
+
+        <dependency id="com.ludei.injector.android" />
+
+    </platform>
+</plugin>

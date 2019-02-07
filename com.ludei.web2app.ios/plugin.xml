@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="com.ludei.web2app.ios" version="1.0.0">
+        
+    <name>Cocoon Web2App</name>
+    <description>Cocoon Web2App</description>
+    <license>MPL 2.0</license>
+    <keywords>cordova, ludei, cocoon, development, canvas+, canvas plus, ios</keywords>
+
+    <platform name="ios">
+        <header-file src="src/CocoonWeb2App.h" />
+        <source-file src="src/CocoonWeb2App.m" />
+
+        <config-file target="config.xml" parent="/*">
+            <feature name="CocoonWeb2App">
+                <param name="ios-package" value="CocoonWeb2App" />
+                <param name="onload" value="true" />
+            </feature>
+        </config-file>
+
+        <dependency id="com.ludei.injector.ios" />
+    </platform>
+</plugin>
